@@ -1,0 +1,3392 @@
+[
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.12359282640136371,
+        "rps": 15.735489268955426,
+        "parallel": 1,
+        "p99_time": 0.15112428331973207,
+        "mean_time": 0.06333559475949842,
+        "mean_precisions": 0.9591150000000002,
+        "engine_params": [
+            "num_candidates",
+            128
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.07101505899881885,
+        "rps": 16.046821188848504,
+        "parallel": 1,
+        "p99_time": 0.07257115498116036,
+        "mean_time": 0.06209751885379446,
+        "mean_precisions": 0.976809,
+        "engine_params": [
+            "num_candidates",
+            256
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.07597087645226565,
+        "rps": 124.32675535862488,
+        "parallel": 8,
+        "p99_time": 0.0817737947308342,
+        "mean_time": 0.06276429239349528,
+        "mean_precisions": 0.976809,
+        "engine_params": [
+            "num_candidates",
+            256
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.11340403799804336,
+        "rps": 84.72563713839173,
+        "parallel": 8,
+        "p99_time": 0.12130583105012192,
+        "mean_time": 0.0928683319654916,
+        "mean_precisions": 0.9923270000000001,
+        "engine_params": [
+            "num_candidates",
+            512
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.39345830095244305,
+        "rps": 292.36516190054584,
+        "parallel": 100,
+        "p99_time": 0.4335312209785844,
+        "mean_time": 0.28604545687723987,
+        "mean_precisions": 0.9459990000000001,
+        "engine_params": [
+            "num_candidates",
+            128
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.6265850526469876,
+        "rps": 203.95287753029348,
+        "parallel": 100,
+        "p99_time": 0.6651070965990221,
+        "mean_time": 0.4368469998100973,
+        "mean_precisions": 0.976809,
+        "engine_params": [
+            "num_candidates",
+            256
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.9630255028016108,
+        "rps": 136.4008105953922,
+        "parallel": 100,
+        "p99_time": 1.0183436792886642,
+        "mean_time": 0.681741493691504,
+        "mean_precisions": 0.9923270000000001,
+        "engine_params": [
+            "num_candidates",
+            512
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.10415280304678162,
+        "rps": 10.981635452734078,
+        "parallel": 1,
+        "p99_time": 0.1064543571014292,
+        "mean_time": 0.09083497378309875,
+        "mean_precisions": 0.9923270000000001,
+        "engine_params": [
+            "num_candidates",
+            512
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.04965815209925495,
+        "rps": 45.42848867906044,
+        "parallel": 2,
+        "p99_time": 0.05263598296867713,
+        "mean_time": 0.04362660309758576,
+        "mean_precisions": 0.9459989999999999,
+        "engine_params": [
+            "num_candidates",
+            128
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.07016109765063447,
+        "rps": 32.54992850528558,
+        "parallel": 2,
+        "p99_time": 0.07212058207827794,
+        "mean_time": 0.06105091194488705,
+        "mean_precisions": 0.976809,
+        "engine_params": [
+            "num_candidates",
+            256
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.10306124034996174,
+        "rps": 22.20028479688803,
+        "parallel": 2,
+        "p99_time": 0.10548731701077486,
+        "mean_time": 0.08968853035081847,
+        "mean_precisions": 0.9923270000000001,
+        "engine_params": [
+            "num_candidates",
+            512
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.0491127630473784,
+        "rps": 92.64407318929055,
+        "parallel": 4,
+        "p99_time": 0.05231738231781492,
+        "mean_time": 0.04252504916220605,
+        "mean_precisions": 0.9459989999999999,
+        "engine_params": [
+            "num_candidates",
+            128
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.06970282294951176,
+        "rps": 65.59475170177463,
+        "parallel": 4,
+        "p99_time": 0.07248939515204256,
+        "mean_time": 0.060335263030411805,
+        "mean_precisions": 0.976809,
+        "engine_params": [
+            "num_candidates",
+            256
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.10186804629884136,
+        "rps": 44.96538697974311,
+        "parallel": 4,
+        "p99_time": 0.1050829169196004,
+        "mean_time": 0.08828968098420009,
+        "mean_precisions": 0.9923270000000001,
+        "engine_params": [
+            "num_candidates",
+            512
+        ]
+    },
+    {
+        "engine_name": "elastic",
+        "setup_name": "elastic-elastic-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 169.36478359699686,
+        "total_upload_time": 171.81497646099888,
+        "p95_time": 0.05229373395177389,
+        "rps": 176.94621079009937,
+        "parallel": 8,
+        "p99_time": 0.05576740499018342,
+        "mean_time": 0.04364023017878462,
+        "mean_precisions": 0.9459989999999999,
+        "engine_params": [
+            "num_candidates",
+            128
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.0120712453048327,
+        "rps": 155.53489358413796,
+        "parallel": 1,
+        "p99_time": 0.018742011003996605,
+        "mean_time": 0.0063024248599875135,
+        "mean_precisions": 0.9892230000000002,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.01334251760163169,
+        "rps": 132.91019505792383,
+        "parallel": 1,
+        "p99_time": 0.016531664551366707,
+        "mean_time": 0.00739093349774339,
+        "mean_precisions": 0.9964980000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.016403361999982734,
+        "rps": 591.7492005979968,
+        "parallel": 8,
+        "p99_time": 0.018753709190277735,
+        "mean_time": 0.011763845443794708,
+        "mean_precisions": 0.996497,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.02138209600088885,
+        "rps": 481.5551611814137,
+        "parallel": 8,
+        "p99_time": 0.025664609986270088,
+        "mean_time": 0.014417931639662856,
+        "mean_precisions": 0.998899,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.11980032805440714,
+        "rps": 673.9235519418696,
+        "parallel": 100,
+        "p99_time": 0.12839157801252443,
+        "mean_time": 0.0905703890118617,
+        "mean_precisions": 0.989207,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.15077927204874866,
+        "rps": 569.7624783058147,
+        "parallel": 100,
+        "p99_time": 0.15987142099889753,
+        "mean_time": 0.11687104621300896,
+        "mean_precisions": 0.9964970000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.20576843719718454,
+        "rps": 454.08456038858816,
+        "parallel": 100,
+        "p99_time": 0.2172677760772058,
+        "mean_time": 0.16655064382184792,
+        "mean_precisions": 0.998899,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.016694124897185247,
+        "rps": 102.01154436161845,
+        "parallel": 1,
+        "p99_time": 0.020340132511555566,
+        "mean_time": 0.009638084358523338,
+        "mean_precisions": 0.9988949999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.01593089604757551,
+        "rps": 250.10992488769642,
+        "parallel": 2,
+        "p99_time": 0.021341728016559508,
+        "mean_time": 0.007378358740398835,
+        "mean_precisions": 0.989243,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.02066597770062799,
+        "rps": 152.55496923423868,
+        "parallel": 2,
+        "p99_time": 0.02734784049906012,
+        "mean_time": 0.012649022398838134,
+        "mean_precisions": 0.996525,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.021600095001485884,
+        "rps": 189.41445876272263,
+        "parallel": 2,
+        "p99_time": 0.028765557785009187,
+        "mean_time": 0.010110270716357627,
+        "mean_precisions": 0.9988959999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.024795792498480292,
+        "rps": 284.9123893828292,
+        "parallel": 4,
+        "p99_time": 0.031656556155576256,
+        "mean_time": 0.013243864445901272,
+        "mean_precisions": 0.989217,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.010119450750062238,
+        "rps": 452.48351681761596,
+        "parallel": 4,
+        "p99_time": 0.027303812029640613,
+        "mean_time": 0.007890415097458754,
+        "mean_precisions": 0.9965079999999998,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.011988387504243291,
+        "rps": 403.7214523320363,
+        "parallel": 4,
+        "p99_time": 0.013783812000983744,
+        "mean_time": 0.008883216788314167,
+        "mean_precisions": 0.998899,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 440.40520555600233,
+        "total_upload_time": 1393.004013149999,
+        "p95_time": 0.013353528198058483,
+        "rps": 686.0337932443276,
+        "parallel": 8,
+        "p99_time": 0.01528016304160701,
+        "mean_time": 0.009712543874970288,
+        "mean_precisions": 0.989207,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.007831600949066342,
+        "rps": 154.93424405143625,
+        "parallel": 1,
+        "p99_time": 0.009933918009264742,
+        "mean_time": 0.006327638262009713,
+        "mean_precisions": 0.9788800000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.02389373805090144,
+        "rps": 73.99925865290268,
+        "parallel": 1,
+        "p99_time": 0.030323076748827588,
+        "mean_time": 0.013367617900927144,
+        "mean_precisions": 0.99251,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.0686161361532868,
+        "rps": 125.89336726673382,
+        "parallel": 8,
+        "p99_time": 0.08079532705451128,
+        "mean_time": 0.04982645408607641,
+        "mean_precisions": 0.99243,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.062335467050797885,
+        "rps": 129.2577730670956,
+        "parallel": 8,
+        "p99_time": 0.06978121507258038,
+        "mean_time": 0.047730690032134586,
+        "mean_precisions": 0.99719,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.6169035840470315,
+        "rps": 123.32294740887052,
+        "parallel": 100,
+        "p99_time": 0.6606377911696473,
+        "mean_time": 0.2856362363220469,
+        "mean_precisions": 0.9788800000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.7114869548993739,
+        "rps": 114.53332104520142,
+        "parallel": 100,
+        "p99_time": 0.7623085991134576,
+        "mean_time": 0.349645552289905,
+        "mean_precisions": 0.99141,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.5886883931510966,
+        "rps": 113.29887874706273,
+        "parallel": 100,
+        "p99_time": 0.5980697310645336,
+        "mean_time": 0.33863425948384973,
+        "mean_precisions": 0.9965700000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.02247722309984964,
+        "rps": 82.65323739016603,
+        "parallel": 1,
+        "p99_time": 0.029656634960920202,
+        "mean_time": 0.011932416082992859,
+        "mean_precisions": 0.99722,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.02987096605429541,
+        "rps": 103.70045437674167,
+        "parallel": 2,
+        "p99_time": 0.03559495401204913,
+        "mean_time": 0.01693555722396559,
+        "mean_precisions": 0.97902,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.013780091898661338,
+        "rps": 149.22593355869404,
+        "parallel": 2,
+        "p99_time": 0.015033401017280993,
+        "mean_time": 0.010478479301891639,
+        "mean_precisions": 0.9924400000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.041338881996853157,
+        "rps": 73.08367808237368,
+        "parallel": 2,
+        "p99_time": 0.05192457909797667,
+        "mean_time": 0.024754418090029505,
+        "mean_precisions": 0.99721,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.024810376053210344,
+        "rps": 207.53385020647048,
+        "parallel": 4,
+        "p99_time": 0.037848787998227634,
+        "mean_time": 0.013354098281051847,
+        "mean_precisions": 0.97896,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.024427186801040075,
+        "rps": 183.93726556584687,
+        "parallel": 4,
+        "p99_time": 0.029669356020021947,
+        "mean_time": 0.016696621622992097,
+        "mean_precisions": 0.99246,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.04338241905097675,
+        "rps": 118.54232910990108,
+        "parallel": 4,
+        "p99_time": 0.09419079612125641,
+        "mean_time": 0.02914065144099732,
+        "mean_precisions": 0.99721,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 124.74429903100099,
+        "total_upload_time": 356.29226154599746,
+        "p95_time": 0.048375230003875905,
+        "rps": 178.80023444215163,
+        "parallel": 8,
+        "p99_time": 0.0607465059243259,
+        "mean_time": 0.03063724279807502,
+        "mean_precisions": 0.9788400000000002,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.0039555491001920014,
+        "rps": 292.6076700406216,
+        "parallel": 1,
+        "p99_time": 0.004426207999240433,
+        "mean_time": 0.0032997254111021904,
+        "mean_precisions": 0.8329979999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.004434674000822269,
+        "rps": 261.681756953228,
+        "parallel": 1,
+        "p99_time": 0.004925454990443541,
+        "mean_time": 0.003705624619490118,
+        "mean_precisions": 0.896127,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.009200539999346799,
+        "rps": 825.9073664014705,
+        "parallel": 8,
+        "p99_time": 0.010456794009187436,
+        "mean_time": 0.006943048276208174,
+        "mean_precisions": 0.896127,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.010614724951028618,
+        "rps": 799.4085057514283,
+        "parallel": 8,
+        "p99_time": 0.0121442099901833,
+        "mean_time": 0.008041552517210039,
+        "mean_precisions": 0.94276,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.08176317794959687,
+        "rps": 881.810234050538,
+        "parallel": 100,
+        "p99_time": 0.09322679000848438,
+        "mean_time": 0.046607222725703834,
+        "mean_precisions": 0.8329979999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.09552562799963198,
+        "rps": 840.1808383222917,
+        "parallel": 100,
+        "p99_time": 0.10639524573869495,
+        "mean_time": 0.05664467784439876,
+        "mean_precisions": 0.896127,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.11155098875060503,
+        "rps": 770.483264157957,
+        "parallel": 100,
+        "p99_time": 0.13268424302030332,
+        "mean_time": 0.0666370392663046,
+        "mean_precisions": 0.94276,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.005322310999690671,
+        "rps": 216.534353291623,
+        "parallel": 1,
+        "p99_time": 0.006076611240823697,
+        "mean_time": 0.004500561168509739,
+        "mean_precisions": 0.94276,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.004234795199499785,
+        "rps": 455.22418457601935,
+        "parallel": 2,
+        "p99_time": 0.004889702039818077,
+        "mean_time": 0.0035397343270804414,
+        "mean_precisions": 0.8329979999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.004868150000311287,
+        "rps": 420.8186577695721,
+        "parallel": 2,
+        "p99_time": 0.0055450340086463275,
+        "mean_time": 0.00402253675080683,
+        "mean_precisions": 0.896127,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.0059379555506893665,
+        "rps": 367.5808228404006,
+        "parallel": 2,
+        "p99_time": 0.0068579279602636245,
+        "mean_time": 0.004838625165902158,
+        "mean_precisions": 0.94276,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.005211155050074012,
+        "rps": 715.802693664851,
+        "parallel": 4,
+        "p99_time": 0.005951669030528138,
+        "mean_time": 0.004295244374289905,
+        "mean_precisions": 0.8329980000000001,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.005806081001355778,
+        "rps": 664.0717573989432,
+        "parallel": 4,
+        "p99_time": 0.006744564980326686,
+        "mean_time": 0.00475764175409895,
+        "mean_precisions": 0.896127,
+        "engine_params": [
+            "params",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.007053270051528671,
+        "rps": 607.1308113640066,
+        "parallel": 4,
+        "p99_time": 0.00793736399902628,
+        "mean_time": 0.005671355624598072,
+        "mean_precisions": 0.94276,
+        "engine_params": [
+            "params",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "milvus",
+        "setup_name": "milvus-milvus-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 53.51421815499998,
+        "total_upload_time": 218.17990942799952,
+        "p95_time": 0.008557912550077162,
+        "rps": 872.7587769198553,
+        "parallel": 8,
+        "p99_time": 0.009795568999561513,
+        "mean_time": 0.006480087788905621,
+        "mean_precisions": 0.8329979999999999,
+        "engine_params": [
+            "params",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.003562864000195986,
+        "rps": 323.6396100114901,
+        "parallel": 1,
+        "p99_time": 0.003948855936250766,
+        "mean_time": 0.0030020577206552844,
+        "mean_precisions": 0.9345550000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.0036924429492501075,
+        "rps": 303.16275755833135,
+        "parallel": 1,
+        "p99_time": 0.003962331996299326,
+        "mean_time": 0.0032163079677688076,
+        "mean_precisions": 0.962957,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.005762561600204208,
+        "rps": 607.9163525930553,
+        "parallel": 4,
+        "p99_time": 0.0064370890219288416,
+        "mean_time": 0.0044160302409814904,
+        "mean_precisions": 0.9851960000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.007066680354546406,
+        "rps": 587.8954334275144,
+        "parallel": 4,
+        "p99_time": 0.007857524857172393,
+        "mean_time": 0.005435812818068371,
+        "mean_precisions": 0.9939970000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.0060482343022158595,
+        "rps": 641.7800814042643,
+        "parallel": 8,
+        "p99_time": 0.0072310964009375325,
+        "mean_time": 0.004403059574266081,
+        "mean_precisions": 0.9345549999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.006497795553877949,
+        "rps": 650.9474938471384,
+        "parallel": 8,
+        "p99_time": 0.0077632145823736225,
+        "mean_time": 0.004773090408575808,
+        "mean_precisions": 0.962957,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.007093304047157289,
+        "rps": 615.6173584865463,
+        "parallel": 8,
+        "p99_time": 0.008062134998035618,
+        "mean_time": 0.005390155178489659,
+        "mean_precisions": 0.985196,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.008253466352107353,
+        "rps": 731.3264956745164,
+        "parallel": 8,
+        "p99_time": 0.009405299995632959,
+        "mean_time": 0.006342711857906397,
+        "mean_precisions": 0.9939970000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.024683272996844596,
+        "rps": 805.9401487909342,
+        "parallel": 100,
+        "p99_time": 0.04501726705726469,
+        "mean_time": 0.009375343048883223,
+        "mean_precisions": 0.9345549999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.03272222895029699,
+        "rps": 810.7985647065617,
+        "parallel": 100,
+        "p99_time": 0.05121657400435653,
+        "mean_time": 0.010981740189294214,
+        "mean_precisions": 0.9629570000000002,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.03563075200218009,
+        "rps": 834.934527004981,
+        "parallel": 100,
+        "p99_time": 0.05172219700099959,
+        "mean_time": 0.014030681921492214,
+        "mean_precisions": 0.985196,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.04967757400409024,
+        "rps": 821.1909995583804,
+        "parallel": 100,
+        "p99_time": 0.06635342103320006,
+        "mean_time": 0.02435063314091094,
+        "mean_precisions": 0.9939970000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.004243401353960507,
+        "rps": 264.25567658646645,
+        "parallel": 1,
+        "p99_time": 0.004627578979125247,
+        "mean_time": 0.00369871904199681,
+        "mean_precisions": 0.985196,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.005198504301370121,
+        "rps": 216.62157778601403,
+        "parallel": 1,
+        "p99_time": 0.005502285958064022,
+        "mean_time": 0.004528925720186817,
+        "mean_precisions": 0.9939970000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.0038387900000088843,
+        "rps": 536.2276117151421,
+        "parallel": 2,
+        "p99_time": 0.004551100937023876,
+        "mean_time": 0.0031173495950897632,
+        "mean_precisions": 0.9345550000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.004043182998429984,
+        "rps": 480.31762083199317,
+        "parallel": 2,
+        "p99_time": 0.004628268004162237,
+        "mean_time": 0.0033161641731858254,
+        "mean_precisions": 0.962957,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.004675075100021786,
+        "rps": 443.52061941892106,
+        "parallel": 2,
+        "p99_time": 0.00544337794832245,
+        "mean_time": 0.003872356402789592,
+        "mean_precisions": 0.985196,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.005978368101932574,
+        "rps": 353.30965739009383,
+        "parallel": 2,
+        "p99_time": 0.0067593169360043275,
+        "mean_time": 0.004782132831751369,
+        "mean_precisions": 0.9939970000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.004732697801227914,
+        "rps": 752.3872633728688,
+        "parallel": 4,
+        "p99_time": 0.0053770939700916644,
+        "mean_time": 0.0035613235057913696,
+        "mean_precisions": 0.9345550000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 307.1717790490002,
+        "total_upload_time": 712.7141839629985,
+        "p95_time": 0.004930064053405658,
+        "rps": 745.5432988355371,
+        "parallel": 4,
+        "p99_time": 0.005435984998912318,
+        "mean_time": 0.003778202979910566,
+        "mean_precisions": 0.962957,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.004473463000249467,
+        "rps": 248.80716570051786,
+        "parallel": 1,
+        "p99_time": 0.0048331700104608894,
+        "mean_time": 0.003910276925060316,
+        "mean_precisions": 0.8339500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.005076844998984597,
+        "rps": 219.53598204379372,
+        "parallel": 1,
+        "p99_time": 0.005319824042962864,
+        "mean_time": 0.004438048639036424,
+        "mean_precisions": 0.8933599999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.009484032002364983,
+        "rps": 271.81535831890176,
+        "parallel": 4,
+        "p99_time": 0.010489596003390033,
+        "mean_time": 0.007262154131953139,
+        "mean_precisions": 0.9499500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.013864486850070534,
+        "rps": 202.24706169151418,
+        "parallel": 4,
+        "p99_time": 0.0148324913362012,
+        "mean_time": 0.010564107538993995,
+        "mean_precisions": 0.9786800000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.007358083997314679,
+        "rps": 304.64141790934997,
+        "parallel": 8,
+        "p99_time": 0.008079385011515113,
+        "mean_time": 0.00568054418189422,
+        "mean_precisions": 0.8339500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.00851264389748394,
+        "rps": 334.45932297528924,
+        "parallel": 8,
+        "p99_time": 0.009613461021290277,
+        "mean_time": 0.006368451266098418,
+        "mean_precisions": 0.8933600000000002,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.010913664997860905,
+        "rps": 342.6789807266159,
+        "parallel": 8,
+        "p99_time": 0.012968554001199664,
+        "mean_time": 0.008432794828018814,
+        "mean_precisions": 0.9499500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.017572890003066277,
+        "rps": 288.9826814933239,
+        "parallel": 8,
+        "p99_time": 0.019063800989897572,
+        "mean_time": 0.013271934637865343,
+        "mean_precisions": 0.9786800000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.04369055404858954,
+        "rps": 166.9671772811334,
+        "parallel": 100,
+        "p99_time": 0.06020155698519375,
+        "mean_time": 0.014147995884923149,
+        "mean_precisions": 0.8339500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.04769583900160796,
+        "rps": 157.77111201559958,
+        "parallel": 100,
+        "p99_time": 0.05908418802086089,
+        "mean_time": 0.018045584302140923,
+        "mean_precisions": 0.8933599999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.09603230609973251,
+        "rps": 160.31017823884602,
+        "parallel": 100,
+        "p99_time": 0.09936688400928688,
+        "mean_time": 0.03755252626901347,
+        "mean_precisions": 0.9499500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.1688104221033427,
+        "rps": 150.0190810694294,
+        "parallel": 100,
+        "p99_time": 0.17299265442430622,
+        "mean_time": 0.08064955363897752,
+        "mean_precisions": 0.9786800000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.006798921952577075,
+        "rps": 170.9022863438244,
+        "parallel": 1,
+        "p99_time": 0.007178925020052702,
+        "mean_time": 0.005734724624962837,
+        "mean_precisions": 0.9499500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.009844513952339184,
+        "rps": 122.52527015640409,
+        "parallel": 1,
+        "p99_time": 0.010215514999435982,
+        "mean_time": 0.008040818559980834,
+        "mean_precisions": 0.9786800000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.0052067520053242335,
+        "rps": 253.9908978936305,
+        "parallel": 2,
+        "p99_time": 0.005712338001540047,
+        "mean_time": 0.004168489911098732,
+        "mean_precisions": 0.8339500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.005955032046040287,
+        "rps": 259.8582908860524,
+        "parallel": 2,
+        "p99_time": 0.0068200049980077886,
+        "mean_time": 0.004745147863912279,
+        "mean_precisions": 0.8933599999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.007620659998428891,
+        "rps": 219.56814932797826,
+        "parallel": 2,
+        "p99_time": 0.008498302010775659,
+        "mean_time": 0.006039366149918351,
+        "mean_precisions": 0.9499500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.010362819001238676,
+        "rps": 169.0610866703065,
+        "parallel": 2,
+        "p99_time": 0.01145611300060409,
+        "mean_time": 0.008409388934873278,
+        "mean_precisions": 0.9786800000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.00614626700298686,
+        "rps": 366.31362497475584,
+        "parallel": 4,
+        "p99_time": 0.0070291169956908555,
+        "mean_time": 0.004644443614910415,
+        "mean_precisions": 0.8339500000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 93.21165035100421,
+        "total_upload_time": 258.4317641200032,
+        "p95_time": 0.0067817819977790345,
+        "rps": 332.43048084654134,
+        "parallel": 4,
+        "p99_time": 0.007572780007976687,
+        "mean_time": 0.005260858467867365,
+        "mean_precisions": 0.8933600000000002,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.0036924299994097964,
+        "rps": 317.0816656016508,
+        "parallel": 1,
+        "p99_time": 0.004017328990430542,
+        "mean_time": 0.0030674396998030718,
+        "mean_precisions": 0.7483569999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.00346222410144037,
+        "rps": 320.1640585898394,
+        "parallel": 1,
+        "p99_time": 0.0037258310004290255,
+        "mean_time": 0.003038135010095357,
+        "mean_precisions": 0.7783129999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.005341401049190608,
+        "rps": 741.627073759577,
+        "parallel": 4,
+        "p99_time": 0.0059505149998949495,
+        "mean_time": 0.0041000537007066665,
+        "mean_precisions": 0.8500639999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.006572434500776579,
+        "rps": 618.2557946863973,
+        "parallel": 4,
+        "p99_time": 0.007482916990957166,
+        "mean_time": 0.005028693764401942,
+        "mean_precisions": 0.9061030000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.006119332950311216,
+        "rps": 724.0611548628564,
+        "parallel": 8,
+        "p99_time": 0.007550627998898563,
+        "mean_time": 0.004465107318617629,
+        "mean_precisions": 0.748357,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.006236857198655342,
+        "rps": 757.7166809960263,
+        "parallel": 8,
+        "p99_time": 0.007762280790302615,
+        "mean_time": 0.004517992440998569,
+        "mean_precisions": 0.778313,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.006524311049088283,
+        "rps": 716.3305356735991,
+        "parallel": 8,
+        "p99_time": 0.007922274008415118,
+        "mean_time": 0.004932159967901498,
+        "mean_precisions": 0.8500639999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.007590037150566786,
+        "rps": 776.1042449556811,
+        "parallel": 8,
+        "p99_time": 0.008709391000593316,
+        "mean_time": 0.005788539148192649,
+        "mean_precisions": 0.9061030000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.02570378219934353,
+        "rps": 778.0232146667967,
+        "parallel": 100,
+        "p99_time": 0.050460511019937274,
+        "mean_time": 0.00946553977070762,
+        "mean_precisions": 0.748357,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.02084017525103263,
+        "rps": 798.0077053903807,
+        "parallel": 100,
+        "p99_time": 0.040772071010869715,
+        "mean_time": 0.008914463712500584,
+        "mean_precisions": 0.778313,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.02813569994923455,
+        "rps": 797.9373077385086,
+        "parallel": 100,
+        "p99_time": 0.04879158903077047,
+        "mean_time": 0.01092306566061343,
+        "mean_precisions": 0.8500639999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.03547973100048693,
+        "rps": 854.1323045985177,
+        "parallel": 100,
+        "p99_time": 0.05176104900088831,
+        "mean_time": 0.014604456997397574,
+        "mean_precisions": 0.9061030000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004398229100388562,
+        "rps": 264.7120555081519,
+        "parallel": 1,
+        "p99_time": 0.004760699729704357,
+        "mean_time": 0.0036928832201023397,
+        "mean_precisions": 0.8500640000000002,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.00549884104893863,
+        "rps": 213.69443546229047,
+        "parallel": 1,
+        "p99_time": 0.005887363589627057,
+        "mean_time": 0.004588834744998531,
+        "mean_precisions": 0.9061030000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004028081349224521,
+        "rps": 495.8470218884972,
+        "parallel": 2,
+        "p99_time": 0.00470449400094367,
+        "mean_time": 0.0031476519662079227,
+        "mean_precisions": 0.748357,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004051556699687352,
+        "rps": 497.28512650349643,
+        "parallel": 2,
+        "p99_time": 0.004866946078782351,
+        "mean_time": 0.0032382449839084074,
+        "mean_precisions": 0.7783129999999999,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004620417049864044,
+        "rps": 474.9945986203148,
+        "parallel": 2,
+        "p99_time": 0.0053175780314632035,
+        "mean_time": 0.00373143416550829,
+        "mean_precisions": 0.8500640000000002,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.005874700399908761,
+        "rps": 378.0798520287701,
+        "parallel": 2,
+        "p99_time": 0.006703376000295976,
+        "mean_time": 0.004735238823294458,
+        "mean_precisions": 0.9061030000000001,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004695409001033112,
+        "rps": 749.7621265126805,
+        "parallel": 4,
+        "p99_time": 0.005519449008806988,
+        "mean_time": 0.003499232450506679,
+        "mean_precisions": 0.748357,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "qdrant",
+        "setup_name": "qdrant-rps-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 32.75145872699977,
+        "total_upload_time": 218.0018573060006,
+        "p95_time": 0.004926860551222489,
+        "rps": 767.1387914832027,
+        "parallel": 4,
+        "p99_time": 0.005673210998920695,
+        "mean_time": 0.00369189274709388,
+        "mean_precisions": 0.778313,
+        "engine_params": [
+            "search_params",
+            {
+                "hnsw_ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.007215096349318628,
+        "rps": 160.69602248938412,
+        "parallel": 1,
+        "p99_time": 0.009497307003839524,
+        "mean_time": 0.006130341618024977,
+        "mean_precisions": 0.9017,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.007377205949887862,
+        "rps": 156.02732476480872,
+        "parallel": 1,
+        "p99_time": 0.009811703344748821,
+        "mean_time": 0.006317091957505181,
+        "mean_precisions": 0.9259370000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.010920300749421585,
+        "rps": 511.4531090725473,
+        "parallel": 4,
+        "p99_time": 0.012592713002377425,
+        "mean_time": 0.007673872620544716,
+        "mean_precisions": 0.969158,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.01310773260447604,
+        "rps": 401.8319350273446,
+        "parallel": 4,
+        "p99_time": 0.016209517994866474,
+        "mean_time": 0.009784761190003337,
+        "mean_precisions": 0.988468,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.010125008951581544,
+        "rps": 1070.8452145769672,
+        "parallel": 8,
+        "p99_time": 0.016330411003436896,
+        "mean_time": 0.007308237089946487,
+        "mean_precisions": 0.9017,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.010284880701874497,
+        "rps": 1039.230753946499,
+        "parallel": 8,
+        "p99_time": 0.012597871539692284,
+        "mean_time": 0.007539726274290297,
+        "mean_precisions": 0.9259370000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.012115870200068456,
+        "rps": 895.065148704093,
+        "parallel": 8,
+        "p99_time": 0.013875294315294016,
+        "mean_time": 0.008714571129802789,
+        "mean_precisions": 0.969158,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.015513619998819195,
+        "rps": 711.4944847291549,
+        "parallel": 8,
+        "p99_time": 0.01756037409868441,
+        "mean_time": 0.01105741397896345,
+        "mean_precisions": 0.988468,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.17683577510324533,
+        "rps": 1548.5921584319385,
+        "parallel": 100,
+        "p99_time": 0.27045530714924126,
+        "mean_time": 0.04259645004820122,
+        "mean_precisions": 0.9017,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.13518534919785433,
+        "rps": 1694.1602508597296,
+        "parallel": 100,
+        "p99_time": 0.3280614260735457,
+        "mean_time": 0.03606216734012051,
+        "mean_precisions": 0.9259370000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.2164801800019626,
+        "rps": 1342.3751526455117,
+        "parallel": 100,
+        "p99_time": 0.4218127029344032,
+        "mean_time": 0.0695577776870552,
+        "mean_precisions": 0.969158,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.2311510430477937,
+        "rps": 1193.7898741799415,
+        "parallel": 100,
+        "p99_time": 0.41608200763213987,
+        "mean_time": 0.08184253261109188,
+        "mean_precisions": 0.988468,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.008875286351394606,
+        "rps": 131.41792319875046,
+        "parallel": 1,
+        "p99_time": 0.011008954006101706,
+        "mean_time": 0.007507408486594067,
+        "mean_precisions": 0.969158,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.011764500950084767,
+        "rps": 101.92627545033895,
+        "parallel": 1,
+        "p99_time": 0.01325873003770539,
+        "mean_time": 0.009699594723533664,
+        "mean_precisions": 0.988468,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.007882560954021754,
+        "rps": 321.376768470814,
+        "parallel": 2,
+        "p99_time": 0.00967670900077792,
+        "mean_time": 0.006090063500876567,
+        "mean_precisions": 0.9017,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.00798407315087388,
+        "rps": 312.6790894010017,
+        "parallel": 2,
+        "p99_time": 0.010053918968988001,
+        "mean_time": 0.0062625004729627105,
+        "mean_precisions": 0.9259370000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.009303437500784639,
+        "rps": 261.8879778852374,
+        "parallel": 2,
+        "p99_time": 0.011941319820398349,
+        "mean_time": 0.0074928749179096485,
+        "mean_precisions": 0.969158,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.012043545045889913,
+        "rps": 205.43813837058698,
+        "parallel": 2,
+        "p99_time": 0.015526881998812315,
+        "mean_time": 0.009591759645372077,
+        "mean_precisions": 0.988468,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.009204104001037194,
+        "rps": 615.609300997867,
+        "parallel": 4,
+        "p99_time": 0.010232557002309479,
+        "mean_time": 0.006305023355402954,
+        "mean_precisions": 0.9017,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "deep-image-96-angular",
+        "upload_time": 2874.256570022997,
+        "total_upload_time": 2874.2566166230026,
+        "p95_time": 0.009411206001459504,
+        "rps": 598.3761752282429,
+        "parallel": 4,
+        "p99_time": 0.010451683013452567,
+        "mean_time": 0.00653972679673243,
+        "mean_precisions": 0.9259370000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.014612861947898636,
+        "rps": 75.48294474158165,
+        "parallel": 1,
+        "p99_time": 0.0166273300411558,
+        "mean_time": 0.01306868483589642,
+        "mean_precisions": 0.75508,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01489279895031359,
+        "rps": 73.89497486728361,
+        "parallel": 1,
+        "p99_time": 0.015484216998374904,
+        "mean_time": 0.013342743877052272,
+        "mean_precisions": 0.79717,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01879305804868636,
+        "rps": 260.5838498676362,
+        "parallel": 4,
+        "p99_time": 0.022605427056405454,
+        "mean_time": 0.015093292283127084,
+        "mean_precisions": 0.8910799999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.024155007002627824,
+        "rps": 210.44780373922873,
+        "parallel": 4,
+        "p99_time": 0.028281150006951066,
+        "mean_time": 0.018741170149005483,
+        "mean_precisions": 0.9476800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01886109905099147,
+        "rps": 544.9546125159305,
+        "parallel": 8,
+        "p99_time": 0.021644779017224208,
+        "mean_time": 0.014301943643979029,
+        "mean_precisions": 0.75508,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.021221743001660798,
+        "rps": 519.9257422915169,
+        "parallel": 8,
+        "p99_time": 0.024539573025977004,
+        "mean_time": 0.014989252320978266,
+        "mean_precisions": 0.7971699999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.02205668904680351,
+        "rps": 468.2630031852047,
+        "parallel": 8,
+        "p99_time": 0.02917454709378943,
+        "mean_time": 0.01668887587404606,
+        "mean_precisions": 0.8910800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.028445308949812897,
+        "rps": 372.8509106083253,
+        "parallel": 8,
+        "p99_time": 0.031424573203184994,
+        "mean_time": 0.021035714618112253,
+        "mean_precisions": 0.9476800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.23936286815296623,
+        "rps": 806.4220861470685,
+        "parallel": 100,
+        "p99_time": 0.3027847040908818,
+        "mean_time": 0.08558565670991083,
+        "mean_precisions": 0.75508,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.33459423434869673,
+        "rps": 710.8256733440583,
+        "parallel": 100,
+        "p99_time": 0.4002450142514135,
+        "mean_time": 0.1168705491858418,
+        "mean_precisions": 0.7971699999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.26280121360396147,
+        "rps": 693.1727324212752,
+        "parallel": 100,
+        "p99_time": 0.39638156906112265,
+        "mean_time": 0.12213143852808571,
+        "mean_precisions": 0.8910800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.35615889804794276,
+        "rps": 543.9373090756882,
+        "parallel": 100,
+        "p99_time": 0.5094117416245714,
+        "mean_time": 0.16518281636818574,
+        "mean_precisions": 0.9476800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.016973398600384826,
+        "rps": 65.78924330066874,
+        "parallel": 1,
+        "p99_time": 0.018116159706478355,
+        "mean_time": 0.015062229180010036,
+        "mean_precisions": 0.8910799999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.02143148905270209,
+        "rps": 53.042144807276664,
+        "parallel": 1,
+        "p99_time": 0.022186344008223384,
+        "mean_time": 0.018706962405085504,
+        "mean_precisions": 0.9476800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01553490805235924,
+        "rps": 153.77597822577732,
+        "parallel": 2,
+        "p99_time": 0.01925154400181782,
+        "mean_time": 0.012740993099949265,
+        "mean_precisions": 0.75508,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.014558835002026172,
+        "rps": 152.1303921530406,
+        "parallel": 2,
+        "p99_time": 0.015625512021724713,
+        "mean_time": 0.01289849017479719,
+        "mean_precisions": 0.79717,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01725608595115773,
+        "rps": 130.48913552056766,
+        "parallel": 2,
+        "p99_time": 0.02116000502122915,
+        "mean_time": 0.015049056068965,
+        "mean_precisions": 0.8910800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.021320933000242803,
+        "rps": 106.92364344994108,
+        "parallel": 2,
+        "p99_time": 0.02539336601977993,
+        "mean_time": 0.018448646722972625,
+        "mean_precisions": 0.9476800000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.01764926700525393,
+        "rps": 304.2140307063052,
+        "parallel": 4,
+        "p99_time": 0.021274068005004663,
+        "mean_time": 0.012860326045018156,
+        "mean_precisions": 0.75508,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "gist-960-euclidean",
+        "upload_time": 453.4858907730013,
+        "total_upload_time": 453.4859335729998,
+        "p95_time": 0.016613032998066046,
+        "rps": 295.44142903692284,
+        "parallel": 4,
+        "p99_time": 0.02197431508146109,
+        "mean_time": 0.01326547306693101,
+        "mean_precisions": 0.79717,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.007408828000006905,
+        "rps": 153.53075382580363,
+        "parallel": 1,
+        "p99_time": 0.009649114918920537,
+        "mean_time": 0.006420048365405091,
+        "mean_precisions": 0.747302,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.0077065046003554,
+        "rps": 148.04252043050184,
+        "parallel": 1,
+        "p99_time": 0.009871415009911292,
+        "mean_time": 0.0066648907610002426,
+        "mean_precisions": 0.7771380000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.01059301595005308,
+        "rps": 486.1214596141243,
+        "parallel": 4,
+        "p99_time": 0.013696502290131321,
+        "mean_time": 0.008069266823581892,
+        "mean_precisions": 0.849051,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.013689856350174518,
+        "rps": 381.2003099018015,
+        "parallel": 4,
+        "p99_time": 0.0174379430111185,
+        "mean_time": 0.010351100934190982,
+        "mean_precisions": 0.9055860000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.009932197949638066,
+        "rps": 1107.5916813179551,
+        "parallel": 8,
+        "p99_time": 0.016640219000091747,
+        "mean_time": 0.007066180756406902,
+        "mean_precisions": 0.747302,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.010489512050571645,
+        "rps": 1038.6929612108238,
+        "parallel": 8,
+        "p99_time": 0.014250639040710686,
+        "mean_time": 0.0074483451946895,
+        "mean_precisions": 0.777138,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.012302887998976067,
+        "rps": 893.7955957529196,
+        "parallel": 8,
+        "p99_time": 0.017076965000433125,
+        "mean_time": 0.008773617316404489,
+        "mean_precisions": 0.849051,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.015803098100332133,
+        "rps": 696.4741872940133,
+        "parallel": 8,
+        "p99_time": 0.01877322898957573,
+        "mean_time": 0.011308822234898616,
+        "mean_precisions": 0.9055860000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.12321844205052904,
+        "rps": 1835.4233358204742,
+        "parallel": 100,
+        "p99_time": 0.2164567840799831,
+        "mean_time": 0.03793552960629986,
+        "mean_precisions": 0.7473019999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.13873488299977904,
+        "rps": 1793.536588326792,
+        "parallel": 100,
+        "p99_time": 0.21755130001951337,
+        "mean_time": 0.03760743130339833,
+        "mean_precisions": 0.777138,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.1898250210502737,
+        "rps": 1531.76575274296,
+        "parallel": 100,
+        "p99_time": 0.5331808110802927,
+        "mean_time": 0.06066124582700013,
+        "mean_precisions": 0.8490509999999999,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.21946769199976185,
+        "rps": 1165.677809843721,
+        "parallel": 100,
+        "p99_time": 0.32034827405994315,
+        "mean_time": 0.08314412757350764,
+        "mean_precisions": 0.9055860000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.009543902649602387,
+        "rps": 122.28392280919672,
+        "parallel": 1,
+        "p99_time": 0.01059021177923569,
+        "mean_time": 0.00808230360408961,
+        "mean_precisions": 0.849051,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.013128287699873908,
+        "rps": 92.03462209511672,
+        "parallel": 1,
+        "p99_time": 0.014131658719998089,
+        "mean_time": 0.010751517774993955,
+        "mean_precisions": 0.9055860000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.007620158301051558,
+        "rps": 312.28693498768126,
+        "parallel": 2,
+        "p99_time": 0.009946432979832026,
+        "mean_time": 0.0062678107876003196,
+        "mean_precisions": 0.747302,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.007900327049355836,
+        "rps": 297.9493023849115,
+        "parallel": 2,
+        "p99_time": 0.01067889700005253,
+        "mean_time": 0.006581082899218199,
+        "mean_precisions": 0.7771380000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.009712458998546936,
+        "rps": 246.25490828320665,
+        "parallel": 2,
+        "p99_time": 0.012398886001174112,
+        "mean_time": 0.007981419868508055,
+        "mean_precisions": 0.849051,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 256
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.012907287250982336,
+        "rps": 187.71522129340053,
+        "parallel": 2,
+        "p99_time": 0.015704122958813994,
+        "mean_time": 0.01049315930591256,
+        "mean_precisions": 0.9055860000000001,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 512
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.0086454271002367,
+        "rps": 611.2026195829485,
+        "parallel": 4,
+        "p99_time": 0.011314689000719233,
+        "mean_time": 0.00640488874919738,
+        "mean_precisions": 0.747302,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 64
+            }
+        ]
+    },
+    {
+        "engine_name": "weaviate",
+        "setup_name": "weaviate-weaviate-m-32-ef-128",
+        "dataset_name": "glove-100-angular",
+        "upload_time": 350.3070248430013,
+        "total_upload_time": 350.3070663440012,
+        "p95_time": 0.008884540299641228,
+        "rps": 589.7399373057123,
+        "parallel": 4,
+        "p99_time": 0.011190004910968129,
+        "mean_time": 0.006642347110198171,
+        "mean_precisions": 0.777138,
+        "engine_params": [
+            "vectorIndexConfig",
+            {
+                "ef": 128
+            }
+        ]
+    }
+]

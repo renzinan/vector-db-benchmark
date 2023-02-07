@@ -1,0 +1,173 @@
+
+<html>
+
+<head>
+	<script src="benchmarks.js" type="text/javascript"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<link href="main.css" rel="stylesheet">
+	
+	<style>
+
+		.benchmark-wrapper {
+			margin: 20px;
+			padding-left: 150px;
+			padding-right: 150px;
+		}
+		
+		.selector-label {
+			font-weight: bold;
+		}
+		
+		.selector-item {
+			padding-left: 25px;
+		}
+		
+	</style>
+
+</head>
+
+<div class="benchmark-wrapper">
+<div class="selector-item">
+  <label for="datasets-selector-1" class="selector-label">Dataset:</label>
+  <select name="datasets" id="datasets-selector-1" onchange="renderSelected('1')">
+	<option value="deep-image-96-angular">deep-image-96-angular</option>
+	<option value="gist-960-euclidean">gist-960-euclidean</option>
+	<option value="glove-100-angular">glove-100-angular</option>
+  </select>
+</div>
+<div class="selector-item">
+  <label for="parallel-selector-1" class="selector-label">Search threads:</label>
+  <select name="parallel" id="parallel-selector-1" onchange="renderSelected('1')">
+	<option value="100">100</option><option value="8">8</option><option value="4">4</option><option value="2">2</option><option value="1">1</option>
+  </select>
+</div>
+<div class="selector-item">
+  <b>Plot values:</b>
+
+  <!-- Radio button group to select values to render -->
+  <label>
+    <input checked type="radio" name="plot-value-1" value="rps" onclick="renderSelected('1', this.value)"/>
+    RPS
+  </label> |
+
+  <label>
+    <input type="radio" name="plot-value-1" value="mean_time"  onclick="renderSelected('1', this.value)"/>
+    Latency
+  </label> |
+
+  <label>
+    <input type="radio" name="plot-value-1" value="p95_time"  onclick="renderSelected('1', this.value)"/>
+    p95 latency
+  </label> |
+
+  <label>
+    <input type="radio" name="plot-value-1" value="total_upload_time"  onclick="renderSelected('1', this.value)"/>
+    Index time
+  </label>
+</div>
+
+  <canvas id="chart-1"></canvas>
+
+  <div class="form-group" style="margin-left: 5%; margin-right: 1%;">
+    <input type="range" class="custom-range" id="precision-selector-1" onchange="updateLine('1', this.value)">
+  </div>
+
+  <div id="table-1"></div>
+
+  <i> Download raw data: <a href="results.json">here</a> </i>
+
+</div>
+
+
+
+
+
+<script >
+  let url = "results.json";
+
+  let datasetSelector = document.getElementById("datasets-selector-1");
+
+  let parallelSelector = document.getElementById("parallel-selector-1");
+
+  let precisionSelector = document.getElementById("precision-selector-1");
+
+  const config = {
+    type: 'line',
+    data: {
+      datasets: []
+    },
+    options: {
+      responsive: true,
+      interaction: {
+        intersect: false,
+      },
+      scales: {
+        x: {
+          type: 'linear',
+          title: {
+            display: true,
+            text: 'Recall'
+          },
+        },
+        y: {
+          type: 'linear',
+          title: {
+            display: true,
+            text: ''
+          },
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (tooltipItem) {
+              return [
+                " - " + tooltipItem.parsed.setup_name,
+                JSON.stringify(tooltipItem.parsed.engine_params)
+              ];
+            },
+            title: function (tooltipItem) {
+              return "Recall: " + tooltipItem[0].parsed.x + ", y: " + tooltipItem[0].parsed.y;
+            }
+          }
+        },
+      }
+    }
+  };
+
+  const chart = new Chart(
+    document.getElementById('chart-1'),
+    config
+  );
+
+  fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      console.log(data[0])
+
+      const datasets = getDatasetsList(data);
+      updataDropdown(datasetSelector, datasets);
+
+      // reverse parallels list to have the highest number of parallel threads first
+      const parallels = getParallelOptions(data).reverse();
+
+      updataDropdown(parallelSelector, parallels);
+
+      let parallelsInt = parseInt(parallels[0]);
+
+      let selectedData = filterData(data, {
+        "dataset_name": datasets[0],
+        "parallel": parallelsInt
+      });
+
+      window.datasets = { "1": data, ...window.datasets }
+      window.charts = { "1": chart, ...window.charts }
+
+      renderSelected("1");
+
+      // Chart js set min x value
+
+    });
+</script>
+
+</html>
