@@ -21,6 +21,8 @@ class WeaviateUploader(BaseUploader):
 
     @staticmethod
     def _update_geo_data(data_object):
+        if not hasattr(data_object,'keys'):
+            return data_object
         keys = data_object.keys()
         for key in keys:
             if isinstance(data_object[key], dict):
