@@ -38,10 +38,10 @@ class MilvusUploader(BaseUploader):
             **connection_params
         )
         
-        has = utility.has_collection(MILVUS_COLLECTION_NAME)
+        has = utility.has_collection(MILVUS_COLLECTION_NAME, MILVUS_DEFAULT_ALIAS)
         print(f"Does collection {MILVUS_COLLECTION_NAME} exist in Milvus: {has}")
         if has:
-            utility.drop_collection(MILVUS_COLLECTION_NAME)
+            utility.drop_collection(MILVUS_COLLECTION_NAME, using=MILVUS_DEFAULT_ALIAS)
             
         cls.collection = Collection(MILVUS_COLLECTION_NAME, using=MILVUS_DEFAULT_ALIAS)
         cls.upload_params = upload_params
