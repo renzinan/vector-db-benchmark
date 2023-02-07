@@ -5,6 +5,7 @@ from pymilvus import (
     Collection,
     MilvusException,
     connections,
+    utility,
     wait_for_index_building_complete,
 )
 
@@ -36,6 +37,12 @@ class MilvusUploader(BaseUploader):
             port=str(connection_params.pop("port", MILVUS_DEFAULT_PORT)),
             **connection_params
         )
+        
+        has = utility.has_collection(MILVUS_COLLECTION_NAME)
+        print(f"Does collection {MILVUS_COLLECTION_NAME} exist in Milvus: {has}")
+        if has:
+            utility.drop_collection(MILVUS_COLLECTION_NAME)
+            
         cls.collection = Collection(MILVUS_COLLECTION_NAME, using=MILVUS_DEFAULT_ALIAS)
         cls.upload_params = upload_params
         cls.distance = DISTANCE_MAPPING[distance]
