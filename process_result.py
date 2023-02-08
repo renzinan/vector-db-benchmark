@@ -96,7 +96,11 @@ def main():
             with open(file_path, 'r') as f:
                 file_content = json.load(f)
             run_info = parse_file_name(file_name)
-            search_info = parse_search_file_content(file_content)
+            try:
+                search_info = parse_search_file_content(file_content)
+            except Exception as e:
+                print(f"Parsing error, skip this file:{file_name}")
+                continue
             upload_info = run_map[run_info]
             result_info = {
                 'engine_name': run_info.engine_name,
