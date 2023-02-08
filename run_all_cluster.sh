@@ -2,21 +2,31 @@
 
 set -e
 
+declare -A ENGINES
+ENGINES+=( ["weaviate"]=10.0.1.194 ["milvus"]=10.0.0.194 ["qdrant-rps"]=10.0.3.194 )
+#ENGINES+=( ["weaviate"]=10.0.1.194 )
+
 DATASETS=${DATASETS:-"glove-100-angular glove-25-angular gist-960-euclidean deep-image-96-angular"}
+#DATASETS=${DATASETS:-"glove-100-angular"}
+
+ENGINE_SETTING=${ENGINE_SETTING:-"m-*-ef-128"}
+
+RUN_CMD="python3 run.py"
+#RUN_CMD="echo"
+
 DATASET_ARGS=""
+ENGINE_ARGS=""
+SERVER_ARGS=""
 for dataset in $DATASETS; do
-    DATASET_ARGS="$DATASET_ARGS --datasets $dataset"
+    DATASET_ARGS="--datasets $dataset"
+    for engine_name in ${!ENGINES[@]}; do
+        ENGINE_ARGS="--engines $engine_name-$ENGINE_SETTING"
+	SERVER_ARGS="--host ${ENGINES[${engine_name}]}"
+	CMD="$RUN_CMD $ENGINE_ARGS $DATASET_ARGS $SERVER_ARGS"
+	echo $CMD
+        $CMD
+    done
 done
-
-MILVUS_SERVER_HOST=${SERVER_HOST:-"10.0.0.194"}
-QDRANT_SERVER_HOST=${SERVER_HOST:-"10.0.3.194"}
-WEAVIATE_SERVER_HOST=${SERVER_HOST:-"10.0.1.194"}
-ENGINE_SETTING=${ENGINE_SETTING:-"-m-*-ef-128"}
-
-python3 run.py --engines milvus$ENGINE_SETTING $DATASET_ARGS --host $MILVUS_SERVER_HOST
-python3 run.py --engines qdrant-rps$ENGINE_SETTING $DATASET_ARGS --host $QDRANT_SERVER_HOST
-#python3 run.py --engines weaviate$ENGINE_SETTING $DATASET_ARGS --host $WEAVIATE_SERVER_HOST
-
 
 
 #run_exp "qdrant-single-node" 'qdrant-m-32-*'
