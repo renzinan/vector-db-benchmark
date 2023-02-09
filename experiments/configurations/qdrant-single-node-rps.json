@@ -25,6 +25,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }
@@ -42,6 +43,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }
@@ -59,6 +61,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }
@@ -76,6 +79,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }
@@ -93,6 +97,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }
@@ -110,6 +115,7 @@
       { "parallel": 2, "search_params": { "hnsw_ef": 64 } }, { "parallel": 2, "search_params": { "hnsw_ef": 128 } }, { "parallel": 2, "search_params": { "hnsw_ef": 256 } }, { "parallel": 2, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 4, "search_params": { "hnsw_ef": 64 } }, { "parallel": 4, "search_params": { "hnsw_ef": 128 } }, { "parallel": 4, "search_params": { "hnsw_ef": 256 } }, { "parallel": 4, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 8, "search_params": { "hnsw_ef": 64 } }, { "parallel": 8, "search_params": { "hnsw_ef": 128 } }, { "parallel": 8, "search_params": { "hnsw_ef": 256 } }, { "parallel": 8, "search_params": { "hnsw_ef": 512 } },
+	  { "parallel": 32, "search_params": { "hnsw_ef": 64 } }, { "parallel": 32, "search_params": { "hnsw_ef": 128 } }, { "parallel": 32, "search_params": { "hnsw_ef": 256 } }, { "parallel": 32, "search_params": { "hnsw_ef": 512 } },
       { "parallel": 100, "search_params": { "hnsw_ef": 64 } }, { "parallel": 100, "search_params": { "hnsw_ef": 128 } }, { "parallel": 100, "search_params": { "hnsw_ef": 256 } }, { "parallel": 100, "search_params": { "hnsw_ef": 512 } }
     ],
     "upload_params": { "parallel": 16 }

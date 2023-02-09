@@ -11,6 +11,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -27,6 +28,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -43,6 +45,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -59,6 +62,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -75,6 +79,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -91,6 +96,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
@@ -107,6 +113,7 @@
       { "parallel": 2, "vectorIndexConfig": { "ef": 64} }, { "parallel": 2, "vectorIndexConfig": { "ef": 128} }, { "parallel": 2, "vectorIndexConfig": { "ef": 256} }, { "parallel": 2, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 8, "vectorIndexConfig": { "ef": 64} }, { "parallel": 8, "vectorIndexConfig": { "ef": 128} }, { "parallel": 8, "vectorIndexConfig": { "ef": 256} }, { "parallel": 8, "vectorIndexConfig": { "ef": 512} },
+	  { "parallel": 32, "vectorIndexConfig": { "ef": 64} }, { "parallel": 32, "vectorIndexConfig": { "ef": 128} }, { "parallel": 32, "vectorIndexConfig": { "ef": 256} }, { "parallel": 32, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 100, "vectorIndexConfig": { "ef": 64} }, { "parallel": 100, "vectorIndexConfig": { "ef": 128} }, { "parallel": 100, "vectorIndexConfig": { "ef": 256} }, { "parallel": 100, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 10000, "parallel": 1 }
