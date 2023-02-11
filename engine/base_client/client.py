@@ -53,7 +53,7 @@ class BaseClient:
             }
             out.write(json.dumps(upload_stats, indent=2))
 
-    def run_experiment(self, dataset: Dataset, skip_upload: bool = False, force_run: bool = false):
+    def run_experiment(self, dataset: Dataset, skip_upload: bool = False, force_run: bool = False):
         execution_params = self.configurator.execution_params(
             distance=dataset.config.distance, vector_size=dataset.config.vector_size
         )  
