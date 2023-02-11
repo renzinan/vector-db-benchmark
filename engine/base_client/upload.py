@@ -40,7 +40,7 @@ class BaseUploader:
 
         if parallel == 1:
             for batch in iter_batches(tqdm.tqdm(records), batch_size):
-                latencies.append(self._upload_batch(batch))
+                upload_results.append(self._upload_batch(batch))
         else:
             ctx = get_context(self.get_mp_start_method())
             with ctx.Pool(
@@ -53,15 +53,20 @@ class BaseUploader:
                     self.upload_params,
                 ),
             ) as pool:
-                latencies = list(
+                upload_results = list(
                     pool.imap(
                         self.__class__._upload_batch,
                         iter_batches(tqdm.tqdm(records), batch_size),
                     )
                 )
+        
+        latencies = [item[0] for item in upload_results]
+        data_size = [item[1] for item in upload_results]
+        dataset_size = sum(data_size)
 
         upload_time = time.perf_counter() - start
-
+        
+        print(f"Dataset size: {dataset_size}")
         print("Upload time: {}".format(upload_time))
 
         post_upload_stats = self.post_upload(distance)
@@ -72,6 +77,7 @@ class BaseUploader:
 
         return {
             "post_upload": post_upload_stats,
+            "dataset_size": dataset_size,
             "upload_time": upload_time,
             "total_time": total_time,
             "latencies": latencies,
@@ -80,11 +86,11 @@ class BaseUploader:
     @classmethod
     def _upload_batch(
         cls, batch: Tuple[List[int], List[list], List[Optional[dict]]]
-    ) -> float:
+    ) -> (float, int):
         ids, vectors, metadata = batch
         start = time.perf_counter()
         cls.upload_batch(ids, vectors, metadata)
-        return time.perf_counter() - start
+        return (time.perf_counter() - start, len(vectors))
 
     @classmethod
     def post_upload(cls, distance):
