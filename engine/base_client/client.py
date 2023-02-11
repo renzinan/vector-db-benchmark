@@ -53,17 +53,24 @@ class BaseClient:
             }
             out.write(json.dumps(upload_stats, indent=2))
 
-    def run_experiment(self, dataset: Dataset, skip_upload: bool = False):
+    def run_experiment(self, dataset: Dataset, skip_upload: bool = False, force_run: bool = false):
         execution_params = self.configurator.execution_params(
             distance=dataset.config.distance, vector_size=dataset.config.vector_size
-        )
+        )  
 
         reader = dataset.get_reader(execution_params.get("normalize", False))
 
+        files = os.listdir(RESULTS_DIR)
+        if not force_run:
+            prefix = f"{self.name}-{dataset_name}-upload"
+            if any(f.startswith(prefix) for f in files):
+                print("Experiment stage: Upload -- result file found, skipped")
+                skip_upload = True
+                
         if not skip_upload:
             print("Experiment stage: Configure")
             self.configurator.configure(dataset)
-
+                    
             print("Experiment stage: Upload")
             upload_stats = self.uploader.upload(
                 distance=dataset.config.distance, records=reader.read_data()
@@ -79,6 +86,12 @@ class BaseClient:
 
         print("Experiment stage: Search")
         for search_id, searcher in enumerate(self.searchers):
+            if not force_run:
+                prefix = f"{self.name}-{dataset_name}-search-{search_id}"
+                if any(f.startswith(prefix) for f in files):
+                    print(f"{prefix} result file found, skipped")
+                    continue
+                    
             search_params = {**searcher.search_params}
             search_stats = searcher.search_all(
                 dataset.config.distance, reader.read_queries()
