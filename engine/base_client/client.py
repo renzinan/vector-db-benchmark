@@ -63,7 +63,7 @@ class BaseClient:
 
         files = os.listdir(RESULTS_DIR)
         if not force_run:
-            prefix = f"{self.name}-{dataset_name}-upload"
+            prefix = f"{self.name}-{dataset.config.name}-upload"
             if any(f.startswith(prefix) for f in files):
                 print("Experiment stage: Upload -- result file found, skipped")
                 skip_upload = True
@@ -88,7 +88,7 @@ class BaseClient:
         print("Experiment stage: Search")
         for search_id, searcher in enumerate(self.searchers):
             if not force_run:
-                prefix = f"{self.name}-{dataset_name}-search-{search_id}"
+                prefix = f"{self.name}-{dataset.config.name}-search-{search_id}"
                 if any(f.startswith(prefix) for f in files):
                     print(f"{prefix} result file found, skipped")
                     continue
