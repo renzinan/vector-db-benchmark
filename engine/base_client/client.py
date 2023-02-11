@@ -65,8 +65,13 @@ class BaseClient:
         if not force_run:
             prefix = f"{self.name}-{dataset.config.name}-upload"
             if any(f.startswith(prefix) for f in files):
-                print("Experiment stage: Upload -- result file found, skipped")
                 skip_upload = True
+                for search_id, searcher in enumerate(self.searchers):
+                    prefix = f"{self.name}-{dataset.config.name}-search-{search_id}"
+                    if any(f.startswith(prefix) for f in files):
+                        continue
+                    skip_upload = False  
+                    break
                 
         if not skip_upload:
             print("Experiment stage: Configure")
@@ -84,6 +89,8 @@ class BaseClient:
                     **self.configurator.collection_params,
                 },
             )
+        else:
+            print("Experiment stage: Upload -- skipped")
 
         print("Experiment stage: Search")
         for search_id, searcher in enumerate(self.searchers):
