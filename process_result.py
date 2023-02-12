@@ -22,6 +22,7 @@ class SearchResultInfo(NamedTuple):
     engine_params: tuple
 
 class UploadResultInfo(NamedTuple):
+    dataset_size: int
     upload_time: float
     total_upload_time: float
 
@@ -61,7 +62,8 @@ def parse_search_file_content(file_content):
 def parse_upload_file_content(file_content):
     upload_time = file_content["results"]["upload_time"]
     total_upload_time = file_content["results"]["total_time"]
-    return UploadResultInfo(upload_time, total_upload_time)
+    dataset_size = file_content["results"]["dataset_size"]
+    return UploadResultInfo(dataset_size, upload_time, total_upload_time)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -106,6 +108,7 @@ def main():
                 'engine_name': run_info.engine_name,
                 'setup_name': run_info.setup_name,
                 'dataset_name': run_info.dataset_name,
+                'dataset_size': upload_info.dataset_size,
                 'upload_time': upload_info.upload_time,
                 'total_upload_time': upload_info.total_upload_time,
                 'p95_time': search_info.p95_time,
