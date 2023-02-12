@@ -1,5 +1,6 @@
 import functools
 import time
+from datetime import datetime
 from multiprocessing import get_context
 from typing import Iterable, List, Optional, Tuple
 
@@ -73,6 +74,7 @@ class BaseSearcher:
 
         if parallel == 1:
             start = time.perf_counter()
+            start_timestamp = datetime.now().astimezone().isoformat()
             precisions, latencies = list(
                 zip(*[search_one(query) for query in tqdm.tqdm(queries)])
             )
@@ -92,13 +94,17 @@ class BaseSearcher:
                 if parallel > 10:
                     time.sleep(15)  # Wait for all processes to start
                 start = time.perf_counter()
+                start_timestamp = datetime.now().astimezone().isoformat()
                 precisions, latencies = list(
                     zip(*pool.imap_unordered(search_one, iterable=tqdm.tqdm(queries)))
                 )
 
         total_time = time.perf_counter() - start
+        end_timestamp = datetime.now().astimezone().isoformat()
         return {
             "total_time": total_time,
+            "start_timestamp": start_timestamp,
+            "end_timestamp": end_timestamp,
             "mean_time": np.mean(latencies),
             "mean_precisions": np.mean(precisions),
             "std_time": np.std(latencies),

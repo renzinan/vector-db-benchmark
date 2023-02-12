@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 from multiprocessing import get_context
 from typing import Iterable, List, Optional, Tuple
 
@@ -31,6 +32,7 @@ class BaseUploader:
     ) -> dict:
         latencies = []
         start = time.perf_counter()
+        start_timestamp = datetime.now().astimezone().isoformat()
         parallel = self.upload_params.pop("parallel", 1)
         batch_size = self.upload_params.pop("batch_size", 64)
 
@@ -65,6 +67,7 @@ class BaseUploader:
         dataset_size = sum(data_size)
 
         upload_time = time.perf_counter() - start
+        end_timestamp = datetime.now().astimezone().isoformat()
         
         print(f"Dataset size: {dataset_size}")
         print("Upload time: {}".format(upload_time))
@@ -80,6 +83,8 @@ class BaseUploader:
             "dataset_size": dataset_size,
             "upload_time": upload_time,
             "total_time": total_time,
+            "start_timestamp": start_timestamp,
+            "end_timestamp": end_timestamp,
             "latencies": latencies,
         }
 
