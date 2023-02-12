@@ -26,8 +26,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -42,8 +41,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -58,8 +56,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -74,8 +71,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -90,8 +86,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -106,8 +101,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 1000, "parallel": 5 }
   },
@@ -122,8 +116,7 @@
       { "parallel": 1, "vectorIndexConfig": { "ef": 64} }, { "parallel": 1, "vectorIndexConfig": { "ef": 128} }, { "parallel": 1, "vectorIndexConfig": { "ef": 256} }, { "parallel": 1, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 4, "vectorIndexConfig": { "ef": 64} }, { "parallel": 4, "vectorIndexConfig": { "ef": 128} }, { "parallel": 4, "vectorIndexConfig": { "ef": 256} }, { "parallel": 4, "vectorIndexConfig": { "ef": 512} },
       { "parallel": 16, "vectorIndexConfig": { "ef": 64} }, { "parallel": 16, "vectorIndexConfig": { "ef": 128} }, { "parallel": 16, "vectorIndexConfig": { "ef": 256} }, { "parallel": 16, "vectorIndexConfig": { "ef": 512} },
-	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} },
-      { "parallel": 128, "vectorIndexConfig": { "ef": 64} }, { "parallel": 128, "vectorIndexConfig": { "ef": 128} }, { "parallel": 128, "vectorIndexConfig": { "ef": 256} }, { "parallel": 128, "vectorIndexConfig": { "ef": 512} }
+	  { "parallel": 64, "vectorIndexConfig": { "ef": 64} }, { "parallel": 64, "vectorIndexConfig": { "ef": 128} }, { "parallel": 64, "vectorIndexConfig": { "ef": 256} }, { "parallel": 64, "vectorIndexConfig": { "ef": 512} }
     ],
     "upload_params": { "batch_size": 10000, "parallel": 1 }
   }
