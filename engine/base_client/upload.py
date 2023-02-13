@@ -31,6 +31,7 @@ class BaseUploader:
         records: Iterable[Record],
     ) -> dict:
         latencies = []
+        upload_results = []
         start = time.perf_counter()
         start_timestamp = datetime.now().astimezone().isoformat()
         parallel = self.upload_params.pop("parallel", 1)
