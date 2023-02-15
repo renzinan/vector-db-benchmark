@@ -83,7 +83,14 @@
 
 
 <script >
-  let url = "results.json";
+  queryString = window.location.search;
+  parameterList = new URLSearchParams(queryString);
+  result_file = parameterList.get('result_file')
+  if(result_file){
+    let url = result_file;
+  }else{
+    let url = "results.json";
+  }
 
   let datasetSelector = document.getElementById("datasets-selector-1");
 
