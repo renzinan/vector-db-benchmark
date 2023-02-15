@@ -86,10 +86,10 @@
   queryString = window.location.search;
   parameterList = new URLSearchParams(queryString);
   result_file = parameterList.get('result_file')
+  
+  let url = "results.json";
   if(result_file){
-    let url = result_file;
-  }else{
-    let url = "results.json";
+    url = result_file;
   }
 
   let datasetSelector = document.getElementById("datasets-selector-1");
