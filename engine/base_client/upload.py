@@ -68,13 +68,14 @@ class BaseUploader:
         dataset_size = sum(data_size)
 
         upload_time = time.perf_counter() - start
-        end_timestamp = datetime.now().astimezone().isoformat()
+        end_upload_timestamp = datetime.now().astimezone().isoformat()
         
         print(f"Dataset size: {dataset_size}")
         print("Upload time: {}".format(upload_time))
 
         post_upload_stats = self.post_upload(distance)
 
+        end_load_timestamp = datetime.now().astimezone().isoformat()
         total_time = time.perf_counter() - start
 
         print(f"Total import time: {total_time}")
@@ -85,7 +86,8 @@ class BaseUploader:
             "upload_time": upload_time,
             "total_time": total_time,
             "start_timestamp": start_timestamp,
-            "end_timestamp": end_timestamp,
+            "end_upload_timestamp": end_upload_timestamp,
+            "end_load_timestamp": end_load_timestamp,
             "latencies": latencies,
         }
 
