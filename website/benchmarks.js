@@ -27,13 +27,17 @@ let lowerIsBetterMap = {
 const normalizedTitles = {
   total_time: 'Total Time (s)',
   engine_name: 'Engine',
+  setup_name: 'Setup Name',
   dataset_name: 'Dataset',
+  dataset_size: 'Dataset Size',
   rps: 'RPS',
   mean_precisions: 'Recall',
   total_upload_time: 'Upload + Index Time (s)',
   upload_time: 'Upload Time (s)',
   upload_avg_node_memory_gb: 'Upload Average Memory (GB)',
   upload_avg_node_cpu_cores: 'Upload Average CPU (Cores)',
+  search_avg_node_memory_gb: 'Search Average Memory (GB)',
+  search_avg_node_cpu_cores: 'Search Average CPU (Cores)',
   mean_time: 'Latency (s)',
   p95_time: 'P95 (s)',
   p99_time: 'P99 (s)'
