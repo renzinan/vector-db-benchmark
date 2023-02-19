@@ -22,6 +22,10 @@ let lowerIsBetterMap = {
   "upload_time": true,
   "total_time": true,
   "total_upload_time": true,
+  "upload_avg_node_memory_gb": true,
+  "upload_avg_node_cpu_cores": true,
+  "search_avg_node_memory_gb": true,
+  "search_avg_node_cpu_cores": true  
 }
 
 const normalizedTitles = {
